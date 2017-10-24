@@ -18,6 +18,7 @@ public class GlobalController {
 	@Autowired
 	private HttpSession session;
 	
+	
 	@Autowired
 	private UserDAO userDAO;
 	
