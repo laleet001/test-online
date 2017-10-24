@@ -31,7 +31,6 @@ public class CartController {
 		if(result!=null) {
 			switch(result) {
 
-			
 			case "added":
 				mv.addObject("message", "Product has been successfully added inside cart!");					
 				cartService.validateCartLine();
