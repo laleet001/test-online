@@ -26,8 +26,7 @@ public class CartController {
 		
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "Shopping Cart");
-		mv.addObject("userClickShowCart", true);
-		
+		mv.addObject("userClickShowCart", true);	
 		
 		if(result!=null) {
 			switch(result) {
