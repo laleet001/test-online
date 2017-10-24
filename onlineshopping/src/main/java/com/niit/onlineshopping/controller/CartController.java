@@ -28,7 +28,6 @@ public class CartController {
 		mv.addObject("title", "Shopping Cart");
 		mv.addObject("userClickShowCart", true);
 		
-		
 		if(result!=null) {
 			switch(result) {
 			
